@@ -18,11 +18,10 @@ def modulo(number,puissance,N):
     for i in range(len(nlista)):
         s=s*nlista[i]
     return s%N
-# # Take input from the user
-print("*"*40)
-number = input("==> Enter a number: ")
+print("*"*100)
+number = input("==> Enter un nombre")
 puissance = input("==> Enter le puissance ")
 N= input("==> Enter le N")
-
-print("==> The result is:", modulo(int(number),int(puissance),int(N)))
+print("*"*100)
+print("==> Le resultat de modulo est:", modulo(int(number),int(puissance),int(N)))
 
